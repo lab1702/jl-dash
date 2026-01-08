@@ -1,0 +1,29 @@
+/* Financial Dashboard Custom Styles */
+
+body {
+    background-color: #f5f6fa;
+}
+
+/* Make dropdowns look nicer */
+.Select-control {
+    border-radius: 4px !important;
+}
+
+/* Style for the date picker */
+.DateInput_input {
+    font-size: 14px !important;
+}
+
+/* Improve table appearance */
+.dash-table-container {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Chart container shadows */
+.js-plotly-plot {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: white;
+}
